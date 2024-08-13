@@ -12,4 +12,19 @@
     }
     /* nav style end */
     
+    /* hero section style start here */
+    .hero-section{
+        flex-direction: column-reverse;
+        gap: 30px;
+    }
+    .hero{
+        background-image: none;
+    }
+    .left-contain{
+        justify-content: center;
+    }
+    .hero-contain{
+        background-image: url(../resources/Group\ 14.png);
+        background-repeat: no-repeat;
+    }
 }
