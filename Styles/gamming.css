@@ -109,3 +109,125 @@ nav{
     width: 100%;
 }
 /* hero section style end */
+
+/* gammer section style here */
+.gammer{
+    max-width: 1200px;
+    margin: 40px auto;
+    display: flex;
+    justify-content: space-between;
+}
+.gammer-left{
+    max-width: 600px;
+
+}
+.gammer-img{
+    height:450px;
+}
+.gammer-img img{
+    width: 100%;
+    height: 100%;
+}
+.gammer-right{
+    max-width: 550px;
+    display: flex;
+    align-items: center;
+}
+.gammer-title{
+    background-image: linear-gradient(180deg,rgba(249, 72, 178, 1),rgba(135, 88, 241, 1));
+    font-size: 2.8rem;
+    font-weight: 700;
+    background-clip: text;
+    color: transparent; 
+    text-align: right;  
+}
+.gammer-des{
+    font-size: 18px;
+    font-weight: 400;
+    text-align: right;
+}
+.gammer-btn{
+    text-align: right;
+    margin: 20px 0;
+}
+.purpose{
+    font-size: 24px;
+    font-weight: 500;
+    text-align: right;
+    color:rgba(114, 99, 150, 0.932);
+}
+.gammer-contain>h3{
+   font-size: 2rem;
+   font-weight: 700;
+   text-align: right; 
+}
+/* gammer section style end here */
+
+/* online-game style start here  */
+.online-game{
+    max-width: 1200px;
+    margin: 50px auto;
+}
+.online-game-title{
+    font-size: 3rem;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.color{
+    background-image: linear-gradient(180deg,rgba(249, 72, 178, 1),rgba(135, 88, 241, 1));
+    background-clip: text;
+    color: transparent; 
+}
+.online-game-des{
+    font-size: 18px;
+    font-weight: 400;
+    text-align: center;
+}
+.cards{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 30px;
+    margin-top: 20px;
+   
+}
+.card{
+    background-color: #cccccc1e;
+    padding: 5px 0;
+    border-radius: 10px;
+    position: relative;
+}
+.card img{
+    width:100%
+}
+.card img:hover+.card-logo{
+   display: block;
+}
+.card img:hover{
+    filter: brightness(20%);
+}
+
+.card-des{
+    margin-top: 10px;
+    padding-left: 4px;
+}
+.card-logo{
+    display: none;
+    width:170px;
+    position: absolute;
+    top:120px;
+    right: 70px;
+    text-align: center;
+
+}
+.logo-title{
+    font-size: 2rem;
+    margin-top: 10px;
+    color:#fff;
+}
+.style-card-icon{
+    color:#fff;
+    font-size: 45px;
+    
+}
+/* online-game style end here */

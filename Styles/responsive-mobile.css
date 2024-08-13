@@ -27,4 +27,35 @@
         background-image: url(../resources/Group\ 14.png);
         background-repeat: no-repeat;
     }
+    /* gammer responsive style here */
+    .gammer{
+        flex-direction: column;
+    }
+    .gammer-title,
+    .gammer-des,
+    .gammer-btn,
+    .purpose,
+    .gammer-contain>h3{
+       text-align: center; 
+    }
+
+    /* online-game responsive style start here */
+    .online-game-title{
+        font-size: 2rem;
+    }
+    .online-game-des{
+        font-size: 14px;
+    }
+    .cards{
+        grid-template-columns: repeat(1,1fr);
+    }
+    .card{
+        width:400px;
+        margin: 0 auto;
+    }
+    
+    .card-logo{
+        top:150px;
+        right: 140px;
+    }
 }
