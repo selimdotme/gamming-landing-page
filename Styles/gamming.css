@@ -1,5 +1,50 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+.work-sans{
+    font-family: "Work Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+  }
 *{
     margin: 0;
     padding: 0;
+}
+
+/* nav style start here */
+nav{
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+}
+.nav-contain{
+    display: flex;
+    align-items: center;
+    gap:10px
+}
+.nav-items{
+    display: flex;
+}
+.nav-title{
+    font-size: 2.5rem;
+    font-weight: 700;
+
+}
+.color-text{
+    color:rgba(255, 66, 165, 1);
+}
+.nav-item{
+    font-size: 1rem;
+    margin-left: 20px;
+    border: none;
+    background-color: rgba(255, 228, 196, 0.041);
+    color:rgba(60, 53, 79, 1);
+    cursor: pointer;
+}
+#items-icon{
+    background-color: rgba(11, 2, 35, 0.1);
+    padding: 10px 15px;
+    border-radius: 10px;
 }

@@ -1,0 +1,15 @@
+@media screen and (max-width:576px) {
+    /* nav style start here */
+    nav{
+        flex-direction: column;
+    }
+    .nav-contain{
+        margin-bottom: 20px;
+    }
+    .nav-items{
+        flex-direction: column;
+        gap:20px
+    }
+    /* nav style end */
+    
+}
