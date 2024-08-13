@@ -280,3 +280,44 @@ nav{
     width:100%
 }
 /* inst style end here */
+
+/* play-game style start here */
+.play-game{
+    max-width: 1200px;
+    margin: 250px auto 50px auto;
+    display: flex;
+    justify-content: space-between;
+}
+.play-img{
+    max-width: 500px;
+    position: relative;
+}
+.img-play-1{
+    width:500px;
+}
+.img-play-1 img{
+    width:100%;
+}
+.img-play-2{
+    width: 280px;
+    position: absolute;
+    top:300px;
+    right: -180px;
+}
+.img-play-2 img{
+    width:100%;
+}
+.play-contain{
+    width: 500px;
+    display: flex;
+    align-items: center;
+}
+.play-title{
+    font-size: 3rem;
+    font-weight: 700;
+}
+.play-des{
+    margin-top: 20px;
+    margin-bottom: 70px;
+}
+/* play-game style end here */

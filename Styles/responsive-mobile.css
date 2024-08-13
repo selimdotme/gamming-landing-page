@@ -60,12 +60,26 @@
     }
     .instantly{
         flex-direction: column;
-        gap:50px
+        gap:50px;
+        justify-content: center;
     }
     .img-2{
         max-width: 300px;
         position: absolute;
         top:300px;
         left:-30px
+    }
+    /* play game */
+    .play-game{
+        flex-direction: column-reverse;
+        justify-content: center;
+    }
+    .img-play-1{
+        width: 340px;
+    }
+    .img-play-2{
+    
+        top:200px;
+        right:0
     }
 }
