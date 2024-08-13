@@ -29,6 +29,8 @@
     }
     /* gammer responsive style here */
     .gammer{
+        width:96%;
+        margin: 0 auto;
         flex-direction: column;
     }
     .gammer-title,
@@ -47,6 +49,7 @@
         font-size: 14px;
     }
     .cards{
+
         grid-template-columns: repeat(1,1fr);
     }
     .card{
@@ -81,5 +84,17 @@
     
         top:200px;
         right:0
+    }
+    .play-title{
+        font-size: 2.4rem;
+    }
+    #play-des{
+        margin-bottom: 70px;
+        width:80%;
+    }
+
+    /* career section start here */
+    .careers-width{
+        flex-direction: column;
     }
 }

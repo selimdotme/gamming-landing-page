@@ -60,6 +60,7 @@ nav{
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
+    
 }
 .left-contain{
     max-width: 550px;
@@ -84,7 +85,8 @@ nav{
     gap:15px
 }
 .btn-primary,
-.btn-secondary{
+.btn-secondary,
+.btn-third{
     font-size: 20px;
     font-weight: 600;
     color:#fff;
@@ -116,6 +118,7 @@ nav{
     margin: 40px auto;
     display: flex;
     justify-content: space-between;
+    
 }
 .gammer-left{
     max-width: 600px;
@@ -284,9 +287,10 @@ nav{
 /* play-game style start here */
 .play-game{
     max-width: 1200px;
-    margin: 250px auto 50px auto;
+    margin: 250px auto;
     display: flex;
     justify-content: space-between;
+    
 }
 .play-img{
     max-width: 500px;
@@ -316,8 +320,60 @@ nav{
     font-size: 3rem;
     font-weight: 700;
 }
-.play-des{
-    margin-top: 20px;
-    margin-bottom: 70px;
+#play-des{
+    font-size: 16px;
 }
 /* play-game style end here */
+
+/* career section style start here */
+.careers{
+    background-color:  rgba(249, 72, 178, 1);
+}
+.careers-width{
+    max-width: 1200px;
+    margin: 50px auto;
+    display: flex;
+    justify-content: space-between;
+}
+.left-careers{
+    width: 500px;
+    display: flex;
+    align-items: center;
+}
+.c-title{
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: #fff;
+    margin-bottom: 20px;
+}
+.career-des{
+    font-size: 16px;
+    margin-bottom: 15px;
+    color: #fff;
+    font-weight: 400;
+}
+.career{
+    display: flex;
+    justify-content: space-between;
+}
+.career-list>p,.career-list-2>p{
+    font-size: 18px;
+    font-weight: 600;
+    color: #fff;
+    margin-bottom: 10px;
+}
+.career-list-2>p{
+    font-size: 16px;
+}
+.right-career{
+    max-width: 600px;
+
+}
+.right-career img{
+    width:100%;
+}
+.btn-third{
+    background-color: #fff;
+    color:black
+}
+/* career section style end here */
