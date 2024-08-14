@@ -75,7 +75,11 @@
     /* play game */
     .play-game{
         flex-direction: column-reverse;
-        justify-content: center;
+        align-items: center;
+    }
+    .play-contain{
+        text-align: center;
+       
     }
     .img-play-1{
         width: 340px;
@@ -96,5 +100,11 @@
     /* career section start here */
     .careers-width{
         flex-direction: column;
+        align-items: center;
     }
+    /* more-game style */
+    .more-game{
+        justify-content: center;
+    }
+
 }

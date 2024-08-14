@@ -377,3 +377,31 @@ nav{
     color:black
 }
 /* career section style end here */
+
+/* more-game style start here */
+.more-game{
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.single-game{
+    display: flex;
+    align-items: center;
+    gap:10px;
+}
+.single-game >img{
+    width:50px;
+}
+.game-name{
+    font-size: 18px;
+    font-weight: 600;
+}
+#game-box{
+    border:1px solid rgba(249, 72, 178, 1);
+    border-radius: 50px; 
+    padding: 10px 20px;
+    color: rgba(249, 72, 178, 1);
+}
+/* more-game style end here */
