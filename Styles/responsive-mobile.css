@@ -107,4 +107,17 @@
         justify-content: center;
     }
 
+    /* footer style */
+    .footer-icons,
+    .details{
+        grid-template-columns: repeat(3,1fr);
+        gap:20px;
+        text-align: center;
+    }
+    .footer-suport{
+        grid-template-columns: repeat(2,1fr);
+        gap:20px;
+        text-align: center;
+    }
+
 }
